@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MixxxMIDIPreset schemaVersion="1" mixxxVersion="1.11+">
+  <info>
+    <name>Behringer CMD PL-1</name>
+    <author>Ademilson Ferreira Pinto</author>
+    <description>Customizable mapping API</description>
+  </info>
+
+  <controller id="Behringer CMD PL-1">
+    <scriptfiles>
+      <file functionprefix="BehringerCmdPl1" filename="behringer.cmd.pl-1.js" />
+      <file functionprefix="BehringerCmdPl1Custom" filename="behringer.cmd.pl-1.custom.js" />
+    </scriptfiles>
+
+    <controls>
+      <!-- WHEEL -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- PITCH -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.pitch</key>
+        <status>0xe0</status>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- ENCODERS -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x00</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x01</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x02</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x03</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x04</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x05</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x06</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb0</status>
+        <midino>0x07</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- BUTTONS -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- LOAD -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- LOCK -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- DECK -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- SCRATCH -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- SYNC -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- TAP -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- CUE -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- PLAY_PAUSE -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- BACKWARD -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- FORWARD -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- MINUS -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- PLUS -->
+
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x90</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x80</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- CHANNEL 2 -->
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.pitch</key>
+        <status>0xe1</status>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x00</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x01</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x02</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x03</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x04</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x05</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x06</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb1</status>
+        <midino>0x07</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x91</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x81</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- CHANNEL 3 -->
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.pitch</key>
+        <status>0xe2</status>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x00</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x01</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x02</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x03</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x04</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x05</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x06</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb2</status>
+        <midino>0x07</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x92</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x82</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <!-- CHANNEL 4 -->
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x1f</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.pitch</key>
+        <status>0xe3</status>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x00</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x01</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x02</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x03</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x04</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x05</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x06</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.encoder</key>
+        <status>0xb3</status>
+        <midino>0x07</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x12</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x13</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x14</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x15</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x16</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x1a</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x1b</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x21</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x23</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x24</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x25</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x26</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonDown</key>
+        <status>0x93</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>BehringerCmdPl1.buttonUp</key>
+        <status>0x83</status>
+        <midino>0x27</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+    </controls>
+
+    <outputs />
+  </controller>
+</MixxxMIDIPreset>
